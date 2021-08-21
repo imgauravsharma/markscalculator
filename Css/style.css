@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #33d9b2;
+    /* background: no-repeat; */
+    height: 100vh;
+    width: 100vw;
+}
+
+.section {
+    position: relative;
+    background: #3e3e3e;
+    height: 71vh;
+    width: 68vw;
+    margin: auto;
+    color: wheat;
+    margin-top: 15vh;
+    border-radius: 20px;
+}
+
+@media (max-width:700px) and (min-width:500px) {
+    .section {
+        position: relative;
+        background: #3e3e3e;
+        height: 75vh;
+        width: 79vw;
+        margin: auto;
+        color: wheat;
+        margin-top: 15vh;
+        border-radius: 20px;
+    }
+}
+
+@media (max-width:500px) and (min-width:0px) {
+
+  .section{
+      height: 83vh;
+      width: 65vw;
+  }
+
+  .main-section{
+      flex-direction: column;
+      /* top: -118px; */
+  }
+
+  .section-left{
+      /* background-color: hsl(0, 100%, 50%)(0, 100%, 50%); */
+      margin: auto;
+      min-width: 63vw;
+      max-height: 20vh;
+  }
+  
+  .section-right{ 
+      margin: auto;
+  }
+
+  input.input-form{
+      width: 45vw;
+  }
+
+}  
+
+.main-section {
+    /* position: relative; */
+    display: flex;
+    /* border: 2px solid red; */
+}
+
+.section-left {
+    /* border: 3px solid blue; */
+    width: 34vw;
+    height: 49vh;
+}
+
+.title {
+    margin: auto;
+    padding: 126px 0;
+    font-family: monospace;
+    font-size: 3.5vw;
+    color: aqua;
+    text-align: center;
+}
+
+.hr-line {
+    width: 24vw;
+    margin: auto;
+}
+
+.section-right {
+    /* border: 3px solid yellow; */
+    height: 49vh;
+    width: 34vw;
+}
+
+.bottom {
+    /* border: 3px solid green; */
+    height: 20vh;
+}
+
+.form {
+    margin: auto;
+    text-align: center;
+    padding-top: 5px;
+    line-height: 44px;
+    vertical-align: middle;
+}
+
+.input-form {
+    width: 20vw;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 17px;
+    background: transparent;
+    padding: 4px;
+    color: white;
+    letter-spacing: 0.2rem;
+}
+
+.btn {
+    width: 10rem;
+    font-family: system-ui;
+    font-size: 18px;
+    background: transparent;
+    border: 2px solid aqua;
+    border-radius: 17px;
+    color: aqua;
+}
+
+.bottom {
+    text-align: center;
+    padding-top: 45px;
+    font-family: system-ui;
+    font-size: 18px;
+    color: aqua;
+}
